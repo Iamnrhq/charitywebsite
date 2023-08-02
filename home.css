@@ -1,0 +1,122 @@
+.image-row {
+    display: flex; /* Use flexbox to align images in a row */
+    gap: 10px; /* Adjust the gap between images as needed */
+}
+
+/* Optional: Set a maximum width for each image */
+.image-row img {
+    max-width: 50%; /* Adjust this value based on your preference */
+    width: 50%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.image{
+   
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+/* .img-1,.img-2,.img-3,.img-4,.img-5,.img-6{
+
+} */
+
+.sec-2_txt-1{
+    font-size: 60px; 
+    color: #034543; 
+    padding-top: 3%;
+    max-width: 700px;
+}
+
+.sec-3_txt-3{
+    padding-top: 1%; 
+    font-size: 20px; 
+    padding-bottom: 2%;
+}
+
+.sec-4_txt-1{
+    color: #034543; 
+    text-align: center; 
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+    font-size: 60px;
+}
+
+.sec-5_txt-1{
+    font-size: 20px; 
+    color: green;
+}
+
+.sec-5_txt-2{
+    color: #034543;
+}
+.sec-5_txt-3{
+    padding-top: 1%;
+}
+.sec-5-img{
+    padding-top: 13%;
+}
+
+.sec-6_txt-1{
+    font-size: 20px;
+}
+.sec-6_txt-2{
+    padding-bottom: 5%;
+        font-size: 55px;
+}
+
+@media (min-width:390px) and (max-width:525px){
+    .sec-2_txt-1{
+        font-size: 30px;
+        margin-left: 2%;
+
+    }
+
+    .sec-2_txt-2{
+        font-size: 16px; 
+        margin-left: 2%;
+        
+       
+    }
+
+    .sec-3_txt-1{
+        font-size: 16px;
+    }
+    .sec-3_txt-2{
+        color: #034543;
+        font-size: 28px;
+    }
+
+    .sec-3_txt-3{
+        font-size: 16px;
+    }
+
+    .sec-4_txt-1{
+        font-size: 30px;
+    }
+
+    .sec-5_txt-1{
+        font-size: 18px;
+    }
+    .sec-5_txt-2{
+        font-size: 30px;
+    }
+    .sec-5_txt-3{
+        font-size: 16px;
+    }
+    .sec-5-img{
+        padding-top: 0%;
+    }
+
+    .sec-6_txt-1{
+        font-size: 16px;
+    }
+    .sec-6_txt-2{
+        font-size: 28px;
+    }
+}
+
+
